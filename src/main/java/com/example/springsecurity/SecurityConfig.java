@@ -15,6 +15,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest().authenticated();
         http // 인증 정책
                 .formLogin();
-        //tet
+        //tetrt
     }
 }
